@@ -14,7 +14,7 @@ env:
   SQLNAME: ${{ secrets.SQLNAME }}
 jobs:
   deploy:
-    name: Deploy app 1
+    name: Deploy app
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
